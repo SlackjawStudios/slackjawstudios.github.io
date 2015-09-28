@@ -1,0 +1,23 @@
+.image-wrapper {
+    text-align: center;
+}
+
+.image-wrapper > img {
+  margin-bottom: 0.25rem;
+  display: inline;
+}
+
+.image-wrapper .image-caption {
+  font-size: small;
+}
+
+.image-wrapper .image-header {
+  font-weight: bold;
+}
+
+.image-wrapper > a > img {
+  margin-bottom: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+}

@@ -1,0 +1,40 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Slackjaw Studios
+tagline:             ''
+description:         'Slackjaw Studios'
+url:                 http://blog.slackjawstudios.com
+baseurl:             ''
+paginate:            5
+
+home:
+  useExcerpts:		 false
+
+showTwitch: false
+
+highlighter: pygments
+
+# Rake
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: sublime
+git:
+  branch: master
+
+# About/contact
+author:
+  name:              Slackjaw Studios
+  url:               http://blog.slackjawstudios.com
+  twitch:            http://twitch.tv/SlackjawStudios
+
+gems:
+  - jekyll-sitemap
